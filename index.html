@@ -17,10 +17,20 @@
             <input type="datetime-local" id="datetime" name="datetime" required>
             <textarea id="message" name="message" placeholder="Additional Notes (optional)" rows="4"></textarea>
             <button type="submit">Schedule Call</button>
-        </form>
-        <div class="success-message" id="successMessage">Thank you! Your call has been scheduled.</div>
-    </div>
+      <body>
+    <h1>Welcome to My Site</h1>
+    <p>This is my awesome landing page!</p>
 
-    <script src="script.js"></script>
+    <!-- Updated form (Formspree integration) -->
+    <form action="https://formspree.io/f/mjkvdjjo" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Your Phone Number">
+        <input type="datetime-local" name="datetime" required>
+        <textarea name="message" placeholder="Additional Notes (optional)" rows="4"></textarea>
+        <button type="submit">Schedule Call</button>
+    </form>
+</body>
+
 </body>
 </html>
